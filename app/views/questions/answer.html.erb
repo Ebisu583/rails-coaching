@@ -1,0 +1,23 @@
+<div class="container my-5">
+  <h1>Your sweetheart reply:</h1>
+
+  <blockquote>
+    <p>
+      <% if @question.blank? %>
+        ❤️
+      <% else %>
+        <%= @question %>
+      <% end %>
+    </p>
+    <cite>You</cite>
+  </blockquote>
+
+  <blockquote class="coach">
+    <p><%= @answer %></p>
+    <cite>Your sweetheart</cite>
+  </blockquote>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-secondary" %>
+  <%= link_to "Back to home", root_path, class: "btn btn-secondary" %>
+
+</div>

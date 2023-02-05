@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+  background-color:lightpink;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 24px;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+}
+
+blockquote.coach {
+  background-color: lightyellow;
+}
+
+blockquote.coach p {
+  font-weight: 400;
+}
+
+cite:before {
+  content: "—"
+}
+
+.container {
+  width: 75%;
+}
+
+form {
+  width: 50%;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 600px;
+}
+
+.banner h1 {
+  color: rgb(55, 4, 4);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  padding: 80px;
+}
+a.btn.btn-primary {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+a.btn.btn-secondary {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
